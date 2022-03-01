@@ -1,0 +1,102 @@
+.slider-main {
+  position: relative;
+  width: 100%;
+}
+
+.slider-main__list {
+  width: 100%;
+  height: 621px;
+  overflow: hidden;
+}
+
+.slider-main .swiper-container {
+  @media (max-width: 580px) {
+    height: 320px;
+  }
+}
+
+.slider-main__item {
+  display: flex;
+  max-width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-main__item--1  {
+  background-image: url("../img/earth.jpg");
+}
+
+.slider-main__item--2  {
+  background-image: url("../img/urban.jpg");
+}
+
+.slider-main__item--3  {
+  background-image: url("../img/sundown.jpg");
+}
+
+.slider-main__desc {
+  padding-right: 0;
+  margin-top: 90px;
+}
+
+.slider-main__link {
+  max-width: 100%;
+  height: 621px;
+
+  @media (max-width: 767px) {
+    height: 420px;
+  }
+
+  @media (max-width: 580px) {
+    height: 100%;
+  }
+}
+
+.slider-main h2 {
+  font-size: 80px;
+  font-size: calc(34px + 48*(100vw/1920));
+  line-height: 50px;
+  line-height: calc(32px + 17*(100vw/1920));
+  color: var(--basic-white);
+  margin-bottom: 20px;
+}
+
+.slider-main p {
+  font-size: 45px;
+  font-size: calc(20px + 25*(100vw/1920));
+  font-weight: 300;
+  font-variant: small-caps;
+  color: var(--basic-white);
+  margin: 0;
+}
+
+.slider-main a {
+  text-decoration: none;
+}
+
+.slider-main__toggle {
+  position: absolute;
+  width: 60px;
+  height: 26px;
+  top: 275px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 10;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.slider-main__toggle--prev {
+  left: 54px;
+  background-image: url("../img/arrow-slider-main.png");
+  opacity: 0.5;
+}
+
+.slider-main__toggle--next {
+  right: 54px;
+  background-image: url("../img/arrow-slider-main.png");
+  transform: scaleX(-1) translateY(-50%);
+}

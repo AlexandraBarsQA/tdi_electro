@@ -1,0 +1,22 @@
+.menu-text {
+  font-family: inherit;
+  font-size: 32px;
+  font-weight: 300;
+  font-variant: small-caps;
+  color: var(--main-text);
+
+  @media (max-width: 1720px) {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  @media (max-width: 1600px) {
+    font-size: 24px;
+    line-height: 18px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 24px;
+    line-height: 16px;
+  }
+}

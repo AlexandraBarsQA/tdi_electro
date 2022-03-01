@@ -1,0 +1,8 @@
+.headline {
+  font-family: inherit;
+  font-size: calc(30px + 30*(100vw/1920));
+  line-height: calc(28px + 30*(100vw/1920));
+  font-weight: 700;
+  color: var(--main-text);
+  font-variant: small-caps;
+}

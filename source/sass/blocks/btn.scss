@@ -1,0 +1,29 @@
+.btn {
+  display: block;
+  width: 270px;
+  font-size: 34px;
+  line-height: 20px;
+
+  font-size: calc(16px + 18*(100vw/1920));
+
+  font-weight: 300;
+  font-variant: small-caps;
+  letter-spacing: -1px;
+  color: var(--basic-white);
+  background-color: var(--button);
+  text-align: center;
+  padding: 20px;
+  padding-top: 17px;
+  border: none;
+  cursor: pointer;
+
+  @media (max-width: 960px) {
+    font-size: calc(18px + 16*(100vw/1920));
+  }
+
+  @media (max-width: 580px) {
+    width: 240px;
+    padding: 10px;
+    padding-top: 7px;
+  }
+}

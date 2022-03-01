@@ -1,0 +1,9 @@
+.breadcrumb a,
+.breadcrumb span {
+  display: inline-block;
+}
+
+.breadcrumb a::first-letter,
+.breadcrumb span::first-letter {
+  text-transform: uppercase;
+}

@@ -1,0 +1,36 @@
+body {
+  font-family: "GothamPro", "Arial", sans-serif;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+*,*:before,*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-variant: small-caps;
+  margin: 0;
+  word-break: normal;
+}

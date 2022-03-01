@@ -1,0 +1,8 @@
+.text-site {
+  font-family: inherit;
+  font-size: calc(14px + 10*(100vw/1920));
+  line-height: calc(16px + 10*(100vw/1920));
+  font-weight: 100;
+  letter-spacing: -0.6px;
+  color: var(--main-text);
+}

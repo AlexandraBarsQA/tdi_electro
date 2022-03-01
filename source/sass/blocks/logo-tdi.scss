@@ -1,0 +1,21 @@
+.logo-tdi {
+  max-width: 96px;
+  height: 99px;
+
+  @media (max-width: 1600px) {
+    max-width: 80%;
+    height: auto;
+  }
+
+  @media (max-width: 1280px) {
+    max-width: 65%;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 80%;
+  }
+
+  @media (max-width: 680px) {
+    max-width: 20%;
+  }
+}

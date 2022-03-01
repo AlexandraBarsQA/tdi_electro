@@ -1,0 +1,121 @@
+.form-user {
+  padding-top: 50px;
+  padding-bottom: 48px;
+
+  @media (max-width: 960px) {
+    padding-top: 30px;
+  }
+}
+
+.form-user h2 {
+  margin: 0;
+  margin-bottom: 42px;
+
+  @media (max-width: 767px) {
+    margin-bottom: 25px;
+  }
+}
+
+.form-user p {
+  font-size: calc(14px + 10*(100vw/1920));
+  line-height: calc(16px + 10*(100vw/1920));
+  margin: 0;
+}
+
+.form-user a {
+  font-size: calc(14px + 10*(100vw/1920));
+  line-height: calc(16px + 10*(100vw/1920));
+  letter-spacing: -.6px;
+}
+
+.form-user__personal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 125px;
+  row-gap: 40px;
+  margin-top: 25px;
+  margin-bottom: 40px;
+
+  @media (max-width: 1600px) {
+    column-gap: 60px;
+  }
+
+  @media (max-width: 960px) {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-user__btn {
+  margin-left: auto;
+  margin-top: 10px;
+
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+.form-user label {
+  display: block;
+  font-family: inherit;
+  font-size: calc(20px + 24*(100vw/1920));
+  line-height: calc(30px + 16*(100vw/1920));
+  font-weight: 300;
+  font-variant: small-caps;
+  color: var(--basic-label);
+  margin-bottom: 10px;
+
+  @media (max-width: 960px) {
+    margin-bottom: 20px;
+  }
+}
+
+.form-user__personal input  {
+  width: 100%;
+  height: 30px;
+  font-family: inherit;
+  font-size: 23px;
+  font-weight: 100;
+  letter-spacing: -0.6px;
+  color: #9c9c9c;
+  border: none;
+  border-bottom: 2px solid var(--back-basic);
+  padding-top: 6px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 6px;
+  outline: none;
+}
+
+p.form-user__field {
+  margin-bottom: 65px;
+
+  @media (max-width: 767px) {
+    margin-bottom: 35px;
+  }
+}
+
+.form-user__field label {
+  margin-bottom: 16px;
+}
+
+.form-user__field textarea {
+  width: 100%;
+  min-height: 155px;
+  font-family: inherit;
+  font-size: 23px;
+  font-weight: 100;
+  letter-spacing: -0.6px;
+  color: #9c9c9c;
+  border: none;
+  border: 2px solid var(--back-basic);
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+  resize: none;
+}
